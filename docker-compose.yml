@@ -43,6 +43,7 @@ services:
       - ./Resources/nginx/nginx.conf:/etc/nginx/nginx.conf:ro
       - ./Resources/nginx/ssl:/ssl:ro
       - graphql_cache:/tmp/cache
+      - ./data/v2/sprites/sprites:/media/sprites
   graphql-engine:
     image: hasura/graphql-engine:v2.16.1
     ports:
@@ -65,3 +66,4 @@ volumes:
   pg_data:
   redis_data:
   graphql_cache:
+  web: # - ./data/v2/sprites/sprites:/code/media/sprites
