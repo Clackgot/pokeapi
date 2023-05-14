@@ -1,5 +1,11 @@
 version: '2.4'
 services:
+  react-app:
+    build:
+      context: ./pokemon-project
+    container_name: react-app
+    ports:
+      - "3000:3000"
   cache:
     image: redis:7.0.7-alpine
     volumes:
