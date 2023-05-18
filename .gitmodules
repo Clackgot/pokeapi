@@ -1,6 +1,9 @@
 [submodule "data/v2/sprites"]
 	path = data/v2/sprites
 	url = https://github.com/PokeAPI/sprites.git
+[submodule "pokemonProject"]
+	path = pokemonProject
+	url = https://github.com/Axel-github/pokemon-project.git
 [submodule "pokemon-project"]
 	path = pokemon-project
 	url = https://github.com/Axel-github/pokemon-project.git
